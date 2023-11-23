@@ -1,0 +1,11 @@
+{
+ "build": {
+   "image": "ghcr.io/getzola/zola:v0.17.1",
+   "command": "zola build",
+   "publicDir": "decentralizedscience.org",
+   "baseDir": "public",
+   "environment": {
+     "SOME_ENV": "Build finished!"
+   }
+ }
+
